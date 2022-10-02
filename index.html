@@ -8,22 +8,48 @@
   <title>JOF - Qura</title>
   <meta content="" name="keywords">
 
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-
-  <link href="assets/css/style.css" rel="stylesheet">
 
 
 </head>
 
 <body>
+
+  <!-- ======= CONTACT Modal (BOOTSTRAP) ======-->
+  <!-- Modal -->
+  <!-- <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">I would love to hear from you!!</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send</button>
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+  <!-- CONTACT END -->
 
   <!-- Mobile nav toggle button -->
   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
@@ -39,8 +65,6 @@
           <a href="https://github.com/JOF-Qura" target="_blank" class="github"><i class="bx bxl-github"></i></a>
           <a href="https://www.linkedin.com/in/joshua-ferrer-53626b247" target="_blank" class="linkedin"><i class="bi bi-linkedin"></i></a>
           <a href="https://www.facebook.com/ferrerjoshua304" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
-          <!-- <a href="#" target="_blank" class="twitter"><i class="bx bxl-twitter"></i></a>
-          <a href="#" target="_blank" class="instagram"><i class="bx bxl-instagram"></i></a> -->
         </div>
       </div>
 
@@ -50,7 +74,8 @@
           <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Also Me</span></a></li>
           <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
           <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
-          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+          <li><a href="#devstack" class="nav-link scrollto"><i class="bi bi-egg-fried"></i> <span>DevStack</span></a></li>
+          <!-- <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact Me!</span></a></li> -->
         </ul>
       </nav><!-- .nav-menu -->
     </div>
@@ -62,6 +87,7 @@
       <h1>JOF - Qura</h1>
       <p>I'm <span class="typed" data-typed-items="an Aspiring QA Engineer, Web Developer, Gradwaiting :|"></span></p>
     </div>
+    
     <!-- Skills Section -->
     <section id="skills" class="skills section-bg">
       <div class="container">
@@ -155,21 +181,6 @@
 
   <main id="main">
     
-    <!-- Facts Section -->
-    <!-- <section id="facts" class="facts">
-      <div class="container">
-        <div class="section-title">
-          <h2>Fact(s) about me</h2>
-          <div class="col-lg-12">
-            <ul>
-              <li><p>I'm a developer, but I hate Coffee. XD</p></li>
-            </ul>
-          </div>        
-        </div>
-      </div>
-    </section> -->
-    <!-- End Facts Section -->
-    
     <!-- About Section -->
     <section id="about" class="about">
       <div class="container">
@@ -211,6 +222,7 @@
             <p>
               Looking for a web developer role or software tester, available for freelancing work and open-source projects.
             </p>
+            <p><b>Fact about me:</b> I'm a developer, but I hate Coffee. XD</p>
           </div>
           <div class="col-lg-4" data-aos="fade-right">
             <img src="assets/img/jof-qura-bg.jpg" class="img-fluid" alt="">
@@ -399,6 +411,306 @@
       </div>
     </section><!-- End Portfolio Section -->
 
+    <!-- ======= DevStack Section ======= -->
+    <section id="devstack" class="devstack section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Dev Stacks I Used</h2>
+
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="devstack-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-language">Languages</li>
+              <li data-filter=".filter-framework">Frameworks</li>
+              <li data-filter=".filter-database">Databases</li>
+              <li data-filter=".filter-tool">Tools</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row devstack-container" data-aos="fade-up" data-aos-delay="100">
+        
+        <!-- Languages -->
+          <!-- HTML -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-language">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+          <!-- CSS -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-language">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+          <!-- JAVASCRIPT -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-language">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+          <!-- PHP -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-language">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+          <!-- PYTHON -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-language">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+          <!-- C Programming -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-language">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+          <!-- JAVA -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-language">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+          <!-- PANDAS -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-language">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original-wordmark.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+        
+        <!-- Frameworks -->
+          <!-- LARAVEL -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-framework">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+          <!-- FASTAPI -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-framework">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original-wordmark.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+          <!-- BOOTSTRAP -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-framework">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original-wordmark.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+          <!-- CODEIGNITER -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-framework">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/codeigniter/codeigniter-plain-wordmark.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+          <!-- EXPRESSJS -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-framework">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+          <!-- NODEJS -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-framework">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+
+        <!-- Databases -->
+          <!-- MSSQL SERVER -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-database">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/microsoftsqlserver/microsoftsqlserver-plain-wordmark.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+          <!-- MySQL -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-database">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+        
+        <!-- Tools -->
+          <!-- ADOBE PS -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-tool">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+          <!-- ADOBE XD -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-tool">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-plain.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+          <!-- GIT -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-tool">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original-wordmark.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+          <!-- TRELLO -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-tool">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain-wordmark.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+          <!-- POSTMAN -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-tool">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://seeklogo.com/images/P/postman-api-platform-logo-D6B8AB9B0D-seeklogo.com.png"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+          <!-- VSCODE -->
+          <div class="col-lg-2 col-md-6 devstack-item filter-tool">
+            <div class="devstack-wrap">
+              <div class="col-lg-4 col-md-6">
+                  <img 
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original-wordmark.svg"
+                    height="120"
+                    width="150"
+                  />
+              </div>
+            </div>
+          </div>
+
+
+
+
+        <!-- </div> -->
+      </div>
+    </section><!-- End DevStack Section -->
+
     <!-- Contact Section -->
     <section id="contact" class="contact">
       <div class="container">
@@ -412,62 +724,61 @@
 
           <div class="col-lg-12 d-flex align-items-stretch">
             <div class="info">
-              <div class="address">
-                <i class="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Barangay Holy Spirit, Quezon City</p>
-              </div>
 
-              <div class="email">
-                <i class="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>ferrerjoshua304@gmail.com</p>
-              </div>
-
-              <div class="phone">
-                <i class="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>(+63)977 091 9259</p>
-              </div>
-
-              <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe> -->
-            </div>
-
-          </div>
-
-          <!-- <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
-                <div class="form-group col-md-6">
-                  <label for="name">Your Name</label>
-                  <input type="text" name="name" class="form-control" id="name" required>
+                <div class="col">
+                  <div class="email">
+                    <i class="bi bi-envelope"></i>
+                    <h4>Email:</h4>
+                    <p>ferrerjoshua304@gmail.com</p>
+                  </div>
                 </div>
-                <div class="form-group col-md-6">
-                  <label for="name">Your Email</label>
-                  <input type="email" class="form-control" name="email" id="email" required>
+                <div class="col">
+                  <div class="phone">
+                    <i class="bi bi-phone"></i>
+                    <h4>Call:</h4>
+                    <p>(+63)977 091 9259</p>
+                  </div>
                 </div>
               </div>
-              <div class="form-group">
-                <label for="name">Subject</label>
-                <input type="text" class="form-control" name="subject" id="subject" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Message</label>
-                <textarea class="form-control" name="message" rows="10" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center">
-                <button type="submit">Send Message</button>
-              </div>
-            </form>
-          </div> -->
 
+              <form method="POST" action="forms/contact.php" name="contactform" id="contactform" class="contact-form">
+                <center>
+                  <h5>
+                    <strong>I would love to hear from you!!</strong>
+                  </h5>
+                </center>
+                <br>
+                <div class="row">
+                  <div class="form-group col-md-6">
+                    <h6>Your Name</h6>
+                    <input type="text" name="name" class="form-control" id="name" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <h6>Your Email</h6>
+                    <input type="email" class="form-control" name="email" id="email" required>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <h6>Subject</h6>
+                  <input type="text" class="form-control" name="subject" id="subject" required>
+                </div>
+                <div class="form-group">
+                  <h6>Message</h6>
+                  <textarea class="form-control" name="message" rows="10" required></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+                <div class="text-center">
+                  <button type="submit">Send Message</button>
+                </div>
+              </form>
+              
+          </div>
         </div>
-
       </div>
     </section><!-- End Contact Section -->
 
@@ -477,6 +788,19 @@
   <footer id="footer">
     <div class="container">
       <div>
+        Do you want to collaborate with me? Please get in touch so we can talk about your concept!
+        <center>
+          <nav id="navbar" class="nav-menu navbar">
+            <ul>
+              <li>
+                <a href="#contact" class="nav-link scrollto">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                  <i class="bx bx-envelope"></i> 
+                  <span>Contact Me!</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          </center>
         JOF - Qura
       </div>
     </div>
@@ -487,21 +811,20 @@
   <!-- BootStrap JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <!-- Add-Ons Vendor JS Files -->
+
+
+  <!-- Plugins Vendor JS Files -->
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
-  
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
 
-  <!-- Main JS File -->
+  <!-- JS File -->
   <script src="assets/js/main.js"></script>
-
-  
 
 </body>
 

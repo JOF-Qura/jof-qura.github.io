@@ -207,6 +207,60 @@
   });
 
   /**
+   * DevStack isotope and filter
+   */
+   window.addEventListener('load', () => {
+    let devstackContainer = select('.devstack-container');
+    if (devstackContainer) {
+      let devstackIsotope = new Isotope(devstackContainer, {
+        itemSelector: '.devstack-item'
+      });
+
+      let devstackFilters = select('#devstack-flters li', true);
+
+      on('click', '#devstack-flters li', function(e) {
+        e.preventDefault();
+        devstackFilters.forEach(function(el) {
+          el.classList.remove('filter-active');
+        });
+        this.classList.add('filter-active');
+
+        devstackIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+        devstackIsotope.on('arrangeComplete', function() {
+          AOS.refresh()
+        });
+      }, true);
+    }
+
+  });
+
+  /**
+   * Initiate devstack lightbox 
+   */
+  const devstackLightbox = GLightbox({
+    selector: '.devstack-lightbox'
+  });
+
+  /**
+   * DevStack details slider
+   */
+  new Swiper('.devstack-details-slider', {
+    speed: 400,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    }
+  });
+
+  /**
    * Testimonials slider
    */
   new Swiper('.testimonials-slider', {
