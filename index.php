@@ -1,3 +1,5 @@
+<?php include 'forms/sendemail.php'; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,6 +24,9 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <script src="assets/js/sweetalert2.min.js"></script>
+  <link rel="stylesheet" href="assets/css/sweetalert2.min.css">
 
 
 </head>
@@ -742,7 +747,7 @@
                 </div>
               </div>
 
-              <form method="POST" action="forms/contact.php" name="contactform" id="contactform" class="contact-form">
+              <form class="contact" action="" method="post">
                 <center>
                   <h5>
                     <strong>I would love to hear from you!!</strong>
@@ -768,12 +773,17 @@
                   <textarea class="form-control" name="message" rows="10" required></textarea>
                 </div>
                 <div class="my-3">
+                    <!--alert messages start-->
+                    <?php echo $alert; ?>
+                    <!--alert messages end-->
+                </div>
+                <!-- <div class="my-3">
                   <div class="loading">Loading</div>
                   <div class="error-message"></div>
                   <div class="sent-message">Your message has been sent. Thank you!</div>
-                </div>
+                </div> -->
                 <div class="text-center">
-                  <button type="submit" style="font-family: Courier New, sans-serif;">Send Message</button>
+                  <button type="submit" style="font-family: Courier New, sans-serif;" name="submit" class="send-btn" value="Send">Send Message</button>
                 </div>
               </form>
               
@@ -818,13 +828,18 @@
   <script src="assets/vendor/aos/aos.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/typed.js/typed.min.js"></script>
   <script src="assets/vendor/purecounter/purecounter.js"></script>
 
   <!-- JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script type="text/javascript">
+    if(window.history.replaceState){
+      window.history.replaceState(null, null, window.location.href);
+    }
+  </script>
 
 </body>
 
