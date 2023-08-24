@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/jof-qura.codes/static/css/main.507b8e5a.css",
+    "main.js": "/jof-qura.codes/static/js/main.43e211b7.js",
+    "static/media/heroImage.png": "/jof-qura.codes/static/media/heroImage.2a1e285439ffadd79eef.png",
+    "static/media/mssql.png": "/jof-qura.codes/static/media/mssql.a9153c7bd9c8b20cdb2b.png",
+    "static/media/Online Grocery System.jpg": "/jof-qura.codes/static/media/Online Grocery System.622f341337d72199312c.jpg",
+    "static/media/Warehouse Monitoring System.jpg": "/jof-qura.codes/static/media/Warehouse Monitoring System.b4ea0e0c1a682e9ae07d.jpg",
+    "static/media/Faculty Monitoring System.jpg": "/jof-qura.codes/static/media/Faculty Monitoring System.c94ade8ed4ca5f6584d4.jpg",
+    "static/media/HelpDesk System.jpg": "/jof-qura.codes/static/media/HelpDesk System.c4087049f699b2ce34a1.jpg",
+    "static/media/photoshop.png": "/jof-qura.codes/static/media/photoshop.6cf99be0895fe7b666e6.png",
+    "static/media/mysql.png": "/jof-qura.codes/static/media/mysql.67646295cd91e7a3920e.png",
+    "static/media/trello.png": "/jof-qura.codes/static/media/trello.7a28c59dbaead69dfb51.png",
+    "static/media/codeIgniter.png": "/jof-qura.codes/static/media/codeIgniter.7c5275501e4602873dd3.png",
+    "static/media/react.png": "/jof-qura.codes/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/adobeXD.png": "/jof-qura.codes/static/media/adobeXD.43ffd21f21f54ea12ede.png",
+    "static/media/fastapi.png": "/jof-qura.codes/static/media/fastapi.146cffc8d02a5dc8958a.png",
+    "static/media/github.png": "/jof-qura.codes/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/nodejs.png": "/jof-qura.codes/static/media/nodejs.7b7c4003e702ffb3aeeb.png",
+    "static/media/html.png": "/jof-qura.codes/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/jof-qura.codes/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/jof-qura.codes/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/cProgramming.png": "/jof-qura.codes/static/media/cProgramming.03589f45a07032f0be45.png",
+    "static/media/javascript.png": "/jof-qura.codes/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/jof-qura.codes/index.html",
+    "main.507b8e5a.css.map": "/jof-qura.codes/static/css/main.507b8e5a.css.map",
+    "main.43e211b7.js.map": "/jof-qura.codes/static/js/main.43e211b7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.507b8e5a.css",
+    "static/js/main.43e211b7.js"
+  ]
+}
