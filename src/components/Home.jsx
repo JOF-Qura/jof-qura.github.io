@@ -25,7 +25,7 @@ const Home = () => {
                 <p
                     className="text-gray-400 py-4 max-w-md mr-9"
                 >
-                    Hi 👋, I'm Joshua O. Ferrer, a Polytechnic University of the Philippines graduate of Bachelor of Science in Information Technology. A passionate Fullstack Developer (interested to be a QA Engineer) from Philippines
+                    Hi 👋, I'm Joshua O. Ferrer, a graduate of Bachelor of Science in Information Technology from Polytechnic University of the Philippines. A passionate Fullstack Developer (also interested to be a QA Engineer) from Philippines.
                 </p>
 
                 {/* Portfolio Button */}
