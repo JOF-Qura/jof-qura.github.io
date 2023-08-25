@@ -25,7 +25,7 @@ const experiences = () => {
             <p
                 className="text-xl text-sky-400 font-bold"
             >
-                <em>Role: Full Stack Web Developer Intern</em>
+                <em>Role: FullStack Web Developer Intern</em>
             </p>
             <p
                 className='text-xl text-red-400 font-bold'
@@ -40,7 +40,7 @@ const experiences = () => {
             <p
                 className='text-xl mt-2 text-gray-400'
             > 
-                - One of the full stack developer of a web application for the school (Faculty Monitoring System).
+                - One of the FullStack developer of a web application for the school (Faculty Monitoring System). You can visit my journey for the project <a href="https://drive.google.com/file/d/1evdXDJy7cO05Ad1zLNDKmuVO2aa5wrcw/view?usp=sharing">here</a>.
             </p>
         </div>
     </div>

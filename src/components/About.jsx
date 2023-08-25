@@ -25,7 +25,7 @@ const About = () => {
             <p 
                 className="text-xl mt-2"
             >
-                A Fresh Graduate, A Full Stack Developer, A Photo and Video Editor, and An Aspiring Software / QA Engineer. <br />
+                A Fresh Graduate, A FullStack Developer, A Photo and Video Editor, and An Aspiring Software / QA Engineer. <br />
                 
             </p>
 
