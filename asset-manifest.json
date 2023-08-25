@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.507b8e5a.css",
-    "main.js": "/static/js/main.1f65036f.js",
+    "main.css": "/static/css/main.632b7ae4.css",
+    "main.js": "/static/js/main.78782211.js",
     "static/media/heroImage.png": "/static/media/heroImage.2a1e285439ffadd79eef.png",
     "static/media/mssql.png": "/static/media/mssql.a9153c7bd9c8b20cdb2b.png",
     "static/media/Online Grocery System.jpg": "/static/media/Online Grocery System.622f341337d72199312c.jpg",
@@ -23,11 +23,11 @@
     "static/media/cProgramming.png": "/static/media/cProgramming.03589f45a07032f0be45.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.507b8e5a.css.map": "/static/css/main.507b8e5a.css.map",
-    "main.1f65036f.js.map": "/static/js/main.1f65036f.js.map"
+    "main.632b7ae4.css.map": "/static/css/main.632b7ae4.css.map",
+    "main.78782211.js.map": "/static/js/main.78782211.js.map"
   },
   "entrypoints": [
-    "static/css/main.507b8e5a.css",
-    "static/js/main.1f65036f.js"
+    "static/css/main.632b7ae4.css",
+    "static/js/main.78782211.js"
   ]
 }
