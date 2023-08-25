@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.632b7ae4.css",
-    "main.js": "/static/js/main.78782211.js",
+    "main.js": "/static/js/main.7c3a880f.js",
     "static/media/heroImage.png": "/static/media/heroImage.2a1e285439ffadd79eef.png",
     "static/media/mssql.png": "/static/media/mssql.a9153c7bd9c8b20cdb2b.png",
     "static/media/Online Grocery System.jpg": "/static/media/Online Grocery System.622f341337d72199312c.jpg",
@@ -24,10 +24,10 @@
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
     "main.632b7ae4.css.map": "/static/css/main.632b7ae4.css.map",
-    "main.78782211.js.map": "/static/js/main.78782211.js.map"
+    "main.7c3a880f.js.map": "/static/js/main.7c3a880f.js.map"
   },
   "entrypoints": [
     "static/css/main.632b7ae4.css",
-    "static/js/main.78782211.js"
+    "static/js/main.7c3a880f.js"
   ]
 }
