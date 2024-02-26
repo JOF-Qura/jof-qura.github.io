@@ -25,6 +25,27 @@ const experiences = () => {
             <p
                 className="text-xl text-sky-400 font-bold"
             >
+                <em>Role: Computer Programmer </em>
+            </p>
+            <p
+                className='text-xl text-red-400 font-bold'
+            >
+                @ PNP
+            </p>
+            <p
+                className='text-sky-300 font-bold'
+            >
+                August 2023 - Present
+            </p>
+            <br></br>
+            <p
+                className='text-xl mt-2 text-gray-400'
+            > 
+                - Working individually while maintaining a detail-oriented and creative perspective as part of larger software teams. Creating instructions for computers to execute tasks. Bug detection, eliminating errors, and troubleshooting.
+            </p>
+            <p
+                className="text-xl text-sky-400 font-bold"
+            >
                 <em>Role: FullStack Web Developer Intern</em>
             </p>
             <p
@@ -40,7 +61,7 @@ const experiences = () => {
             <p
                 className='text-xl mt-2 text-gray-400'
             > 
-                - One of the FullStack developer of a web application for the school (Faculty Monitoring System). You can visit my journey for the project <a href="https://drive.google.com/file/d/1evdXDJy7cO05Ad1zLNDKmuVO2aa5wrcw/view?usp=sharing">here</a>.
+                - One of the FullStack developers of a web application for the school (Faculty Monitoring System). You can visit my journey for the project <a href="https://drive.google.com/file/d/1evdXDJy7cO05Ad1zLNDKmuVO2aa5wrcw/view?usp=sharing">here</a>.
             </p>
         </div>
     </div>
