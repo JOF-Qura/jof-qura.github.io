@@ -101,7 +101,7 @@ const TechStack = () => {
         {
             id: 13,
             srcImg: mssql,
-            title: 'GitHub',
+            title: 'MS SQL SERVER',
             style: 'shadow-gray-400'
         },
         {
